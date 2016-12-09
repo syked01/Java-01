@@ -27,6 +27,20 @@ public class ex02_Expression {
 
 ===========================================
 
+03. Numbers from 1 to 20
+
+public class ex03_Nums_1_To_20 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 20; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+===========================================
+
+===========================================
+
 04. Triangle of 55 stars
 
 public class ex04_Triangle_Of_Stars {
@@ -36,8 +50,6 @@ public class ex04_Triangle_Of_Stars {
                 System.out.print("*");
             }
             System.out.println();
-        }
-    }
-}
 
 ===========================================
+
