@@ -24,3 +24,20 @@ public class ex02_Expression {
 }
 
 ===========================================
+
+===========================================
+
+04. Triangle of 55 stars
+
+public class ex04_Triangle_Of_Stars {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+===========================================
