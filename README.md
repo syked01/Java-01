@@ -1,6 +1,21 @@
 # Java-01
 
-==============================================
+
+===========================================
+
+01. "Hello, Java!"
+
+public class NewStart {
+    public static void main(String[] args){
+        System.out.println("Hello, Java!");
+    }
+}
+
+===========================================
+
+===========================================
+
+02. Expression
 
 public class ex02_Expression {
     public static void main(String[] args) {
@@ -8,4 +23,4 @@ public class ex02_Expression {
     }
 }
 
-==============================================
+===========================================
