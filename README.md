@@ -50,6 +50,9 @@ public class ex04_Triangle_Of_Stars {
                 System.out.print("*");
             }
             System.out.println();
+        }
+    }
+}
 
 ===========================================
 
