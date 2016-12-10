@@ -71,3 +71,36 @@ public class ex05_Rectangle_Area {
 }
 
 ===========================================
+
+===========================================
+
+06. Square of stars
+
+import java.util.Scanner;
+
+public class ex06_Square_Of_Stars {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+        int num = Integer.parseInt(console.nextLine());
+
+        // top part
+        for (int i = 0; i < num; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
+        // middle part
+        for (int i = 0; i < num - 2; i++) {
+            System.out.print("*");
+            for (int j = 0; j < num - 2; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
+        }
+        // bottom part
+        for (int i = 0; i < num; i++) {
+            System.out.print("*");
+        }
+    }
+}
+
+===========================================
